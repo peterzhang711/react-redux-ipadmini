@@ -1,0 +1,16 @@
+.content {
+    margin: 0px;
+    width:800px;
+    height:180px;
+    /* background-color: yellowgreen; */
+    display:flex;
+    /* display:none; */
+}
+.photo {
+    text-align: center;
+    width:150px;
+    height:180px;
+}
+span{
+    padding-top: 30px;
+}
