@@ -34,7 +34,7 @@ class Foot extends Component {
   }
 }
 
-Foot.PropTypes = {
+Foot.propTypes = {
   currentIndex: PropTypes.number.isRequired,
   contentList: PropTypes.array.isRequired,
   handlePreNext: PropTypes.func.isRequired

@@ -16,7 +16,7 @@ class Title extends Component {
   }
 }
 
-Title.PropTypes = {
+Title.propTypes = {
   expandContent: PropTypes.func.isRequired
 }
 export default Title

@@ -68,7 +68,7 @@ const mapDispatchToProps = {
     switchContentToggle: switchContentToggle
 }
 
-App.PropTypes = {
+App.propTypes = {
     ipadInfos: PropTypes.array.isRequired
 }
 
