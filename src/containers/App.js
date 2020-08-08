@@ -3,8 +3,8 @@ import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import { getIpadInfos, switchContentToggle } from '../redux/actions'
 import Title from '../components/Title'
-import Foot from '../components/foot'
-import Content from '../components/content'
+import Foot from '../components/Foot'
+import Content from '../components/Content'
 import'../assets/css/App.scss'
 
 class App extends Component {
