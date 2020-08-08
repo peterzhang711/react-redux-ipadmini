@@ -1,5 +1,6 @@
 import React, {Component } from 'react'
 import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
 import { getIpadInfos, switchContentToggle } from '../redux/actions'
 import Title from '../components/Title'
 import Foot from '../components/foot'
@@ -65,6 +66,10 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = {
     getIpadInfos: getIpadInfos,
     switchContentToggle: switchContentToggle
+}
+
+App.PropTypes = {
+    ipadInfos: PropTypes.array.isRequired
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(App)

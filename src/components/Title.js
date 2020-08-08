@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../assets/css/title.scss'
+import PropTypes from 'prop-types'
 
 class Title extends Component {
   render () {
@@ -15,4 +16,7 @@ class Title extends Component {
   }
 }
 
+Title.PropTypes = {
+  expandContent: PropTypes.func.isRequired
+}
 export default Title

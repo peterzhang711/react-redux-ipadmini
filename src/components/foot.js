@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../assets/css/foot.scss'
+import PropTypes from 'prop-types'
 
 class Foot extends Component {
   render () {
@@ -31,6 +32,12 @@ class Foot extends Component {
       </div>
     )
   }
+}
+
+Foot.PropTypes = {
+  currentIndex: PropTypes.number.isRequired,
+  contentList: PropTypes.array.isRequired,
+  handlePreNext: PropTypes.func.isRequired
 }
 
 export default Foot
