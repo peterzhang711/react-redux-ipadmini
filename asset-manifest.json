@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.b77fd48b.chunk.css",
+    "main.js": "./static/js/main.6defdf45.chunk.js",
+    "main.js.map": "./static/js/main.6defdf45.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.ece370c5.js",
+    "runtime-main.js.map": "./static/js/runtime-main.ece370c5.js.map",
+    "static/js/2.84777634.chunk.js": "./static/js/2.84777634.chunk.js",
+    "static/js/2.84777634.chunk.js.map": "./static/js/2.84777634.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.64105917736630f887e196ae2a2392fb.js": "./precache-manifest.64105917736630f887e196ae2a2392fb.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.b77fd48b.chunk.css.map": "./static/css/main.b77fd48b.chunk.css.map",
+    "static/js/2.84777634.chunk.js.LICENSE.txt": "./static/js/2.84777634.chunk.js.LICENSE.txt",
+    "static/media/ipad-mini.jpg": "./static/media/ipad-mini.27ac1ac9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ece370c5.js",
+    "static/js/2.84777634.chunk.js",
+    "static/css/main.b77fd48b.chunk.css",
+    "static/js/main.6defdf45.chunk.js"
+  ]
+}
